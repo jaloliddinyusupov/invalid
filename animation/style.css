@@ -1,0 +1,35 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-delay: 2s;
+}
+@keyframes box{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 700px;
+    }
+    50%{
+        top: 700px;
+        left: 700px;
+    }
+    75%{
+        top: 700px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+    
+}

@@ -1,0 +1,24 @@
+body{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: wheat;
+}
+article{
+margin: 2rem;
+padding: 2rem;
+background: wheat;
+}
+.logo::before{
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOmcJQyRMEaY9gLQSWDL_FedgpACEmOW_Jwdt1Qad3P-5LGQ_wgFPacjhD6tb-NUZqS6Q&usqp=CAU);
+    display: block;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.image::before{
+    content: url(https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg);
+    display: block;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}

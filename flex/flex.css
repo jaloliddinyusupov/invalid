@@ -1,0 +1,88 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+header{
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto' , sans-serif;
+    line-height: 1.5;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+nav ul{
+    display: flex ;
+    text-transform: capitalize;
+}
+nav li{
+    cursor: pointer;
+    margin: 18px;
+    font-size: 15px;
+    transition: all 0.5s ease-in;
+}
+nav li:hover{
+    color: rgba(66, 137, 209, 0.829);
+}
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    background-color: rgb(66, 137, 209, 0.829);
+    color: white;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background-color: rgb(25, 129, 233, 0.829);
+    color: rgba(0, 0, 0, 0.452);
+    transform: scale(1.05);
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(46, 51, 48) ;
+}
+.pr{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main{
+    width: 500px;
+    height: 500px; 
+    background-color: #fff;
+}
+.box2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.chil{
+    width: 235px;
+    height: 150px;
+    background-color: #fff;
+}
+.box1{
+    width: 100%;
+    height: 150px;
+    background-color:#fff;
+}
